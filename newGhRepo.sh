@@ -4,8 +4,8 @@ repoName=$1
 while [ -z "$repoName" ]
 do
     echo 'Provide a repository name'
-    read -r -p $'Repository name:' repoName1
-    repoName=$repoName1
+    read -r -p $'Repository name:' repoName
+    # repoName=$repoName1
 done
 
 echo "# $repoName" >> README.md
