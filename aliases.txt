@@ -1,0 +1,18 @@
+// This goes in.bashrc
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+
+# starship
+eval "$(starship init bash)"
+
+# my test scripts (for personal use, not work)
+alias pushcode="dash /home/German/Desktop/ger/code/projects/scripts/pushCode.sh"
+alias newghrepo="dash /home/German/Desktop/ger/code/projects/scripts/newGhRepo.sh"
+alias switchwall="dash /home/German/Desktop/ger/code/projects/scripts/switchwallpapers.sh"
+alias projects="cd /home/German/Desktop/ger/code/projects"
+alias ..="cd .."
+alias ...="cd ../.."
+alias testjs="code /home/German/Desktop/ger/code/projects/test.js"
